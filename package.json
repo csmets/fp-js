@@ -1,0 +1,32 @@
+{
+  "name": "fp-js",
+  "version": "1.0.0",
+  "description": "Repo used as reference when doing functional programming in Javascript.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0"
+  },
+  "scripts": {
+    "lint": "eslint ./examples/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csmets/fp-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csmets/fp-js/issues"
+  },
+  "homepage": "https://github.com/csmets/fp-js#readme"
+}
