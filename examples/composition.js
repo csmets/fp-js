@@ -1,3 +1,9 @@
+/* 
+ * Composition allows you to string a bunch of functions which well execute
+ * from left to right.
+ */
+
+// Steal this function to use in your projects.
 const compose = (...funcs) => (...args) => {
 	const loop = (i, res) => {
 		if (i > 0) {
